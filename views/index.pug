@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  #container.col.a.b
+    h1.a= title
+    p Welcome to #{title}
+  script(type='text/javascript').
+    $(document).ready(()=>{console.log(1)})
+
+
